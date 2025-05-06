@@ -255,4 +255,17 @@ fixtures = [
             ]
         ]
     },
+    {"dt": "Custom Field", 
+     "filters": 
+        [
+            [
+                "name",
+                "in",
+                {
+                    "Issue-custom_internal_comments",
+                    "Issue-custom_comments",
+                }
+            ]
+        ]
+    },
 ]
